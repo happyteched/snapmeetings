@@ -11,7 +11,7 @@ angular.module('snapmeetingsApp', [
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
-      }).when('/about',{template:'<h1>32323</h1>', controller:'aboutController'})
+      }).when('/about',{template:'<h1>text change</h1>', controller:'aboutController'})
       .otherwise({
         redirectTo: '/'
       });
